@@ -1,7 +1,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family:"DM Sans";
 }
 
 img {
@@ -164,13 +163,15 @@ a:hover{
 }
 .what-i-do{
     color: #4f7cff;
-    font-size: 19px;
+    font-size: 39px;
     font-weight: 600;
     letter-spacing: 2px;
     margin-bottom: 15px;
     margin-left: 100px;
+    text-align: center;
 }
 .se{
+    text-align: center;
     font-size: 48px;
     margin-bottom: 50px;
     margin-left:100px;
@@ -203,4 +204,62 @@ a:hover{
     font-size: 13px;
     font-weight: bold;
     margin-top: 20px;
+}
+/* Education Style */
+.academic-background{
+    color: #4f7cff;
+    font-size: 39px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    text-align: center;
+}
+.academic-background h1{
+    color: black;
+    font-size: 48px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+.edu-card{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    gap:8px;
+}
+.edu{
+    width: 480px;
+    min-height: 380px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: white;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+.edu-card img{
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.edu:hover{
+    background: #e5e5e5;
+}
+.grade{
+    padding: 8px 18px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 8px;
+    margin-top: 5px;
+    border: 1px;
+    color: #16A34A;
+    background: #F0FDF4;
+}
+.edu p{
+    font-size: 18px;
+    margin-top: 8px;
+    line-height: 0.7;
 }
