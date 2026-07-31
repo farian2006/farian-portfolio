@@ -1,3 +1,4 @@
+/* Global Styles */
 *{
     margin: 0px;
     padding: 0px;
@@ -6,6 +7,12 @@
 img {
     max-width: 100%;
 }
+.lvl{
+    color: #4f7cff;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 20px;
+}
 
 
 /* Navbar Style */
@@ -13,7 +20,7 @@ img {
     display: flex;
     justify-content: space-between;
     padding: 20px 200px;
-    background-color: aliceblue;
+    background-color: #e5e5e5;
     text-align: center;
 }
 
@@ -189,6 +196,9 @@ a:hover{
     font-size: 18px;
     background-color: #f8f8f6;
 }
+.card:hover{
+    background-color: #e5e5e5;
+}
 .card h3{
     margin-top: 15px;
     margin-bottom: 15px;
@@ -199,12 +209,7 @@ a:hover{
     text-align: left;
     margin-bottom: 20px;
 }
-.lvl{
-    color: #4f7cff;
-    font-size: 13px;
-    font-weight: bold;
-    margin-top: 20px;
-}
+
 /* Education Style */
 .academic-background{
     color: #4f7cff;
@@ -262,4 +267,58 @@ a:hover{
     font-size: 18px;
     margin-top: 8px;
     line-height: 0.7;
+}
+
+/* Certificates Section Style */
+
+.certificates-card{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    gap: 12px;
+}
+.certifi img{
+    display: block;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+.certifi:hover{
+    background: #e5e5e5;
+}
+.certifi{
+    width: 680px;
+    height: 640px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: white;
+    overflow: hidden;
+    text-align: left;
+    padding: 20px;
+}
+.certificates-head{
+    color: #4f7cff;
+    font-size: 39px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    text-align: center;
+}
+.certificates-head h1{
+    color: black;
+    font-size: 48px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+.address{
+   color: #7d7f7f;
+   margin-top: 12px;
+}
+.certifi p{
+    margin-bottom: 4px;
+    line-height: 25px;
+    font-size: 18px;
 }
