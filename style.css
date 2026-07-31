@@ -406,3 +406,37 @@ textarea::placeholder{
 .contact-head{
     text-align: center;
 }
+
+/* Footer Section Style */
+.footer-root{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color:#111;
+    color: white;
+}
+
+.left_side{
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    gap:43px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.right_side{
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+  justify-content: flex-end;
+}
+.items{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.footer-root img{
+    height: 40px;
+    width: 40px;
+}
