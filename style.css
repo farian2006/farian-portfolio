@@ -468,3 +468,106 @@ textarea::placeholder{
 .copyright{
     margin-top: 20px;
 }
+
+/* Mobile View Issue  */
+
+/* ===== Mobile Responsive Fixes ===== */
+@media (max-width: 768px) {
+  .navigation {
+    flex-direction: column;
+    padding: 15px 20px;
+    gap: 10px;
+  }
+  .navbar-right {
+    gap: 15px;
+    padding: 10px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .home {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 30px 20px;
+    gap: 30px;
+    width: 90%;
+  }
+  .left-div, .left-div h1, .hero p {
+    text-align: center;
+    align-items: center;
+  }
+  .image {
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .upper-btn, .lower-btn {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0;
+  }
+  .get-in-touch, .cv {
+    font-size: 18px;
+    padding: 15px 20px;
+  }
+  .lower-btn a {
+    font-size: 16px;
+    padding: 12px 18px;
+  }
+
+  .do-work {
+    flex-direction: column;
+    width: 90%;
+  }
+  .what-i-do, .se {
+    margin-left: 0;
+    font-size: 28px;
+  }
+
+  .edu-card, .certificates-card {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .edu {
+    width: 90%;
+    max-width: 400px;
+  }
+  .certifi {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+  }
+  .card-certificate {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .academic-background, .certificates-head {
+    margin-left: 0;
+  }
+
+  .bdy {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+  .row {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .input-box {
+    margin-left: 0;
+  }
+
+  .footer-root {
+    flex-direction: column;
+    text-align: center;
+  }
+  .left-footer, .right_footer {
+    width: 100%;
+  }
+}
