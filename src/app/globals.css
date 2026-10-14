@@ -1,3 +1,21 @@
 @import "tailwindcss";
 
 @plugin "daisyui";
+
+.typing-name {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  vertical-align: bottom;
+  width: 0;
+  animation: typing 2s steps(13, end) infinite alternate;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  70%, 100% {
+    width: 15ch;
+  }
+}

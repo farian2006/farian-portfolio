@@ -19,13 +19,16 @@ const HomePage = () => {
       </div>
 
       <div className="flex w-full max-w-xl flex-col text-center md:w-1/2 md:text-left">
-        <h1 className="mb-4 text-3xl font-bold sm:text-4xl lg:text-5xl">
-          Aspiring Developer
+        <h1 className="mb-4 text-3xl font-extrabold sm:text-4xl lg:text-5xl">
+          Hi I Am{" "}
+          <span className="typing-name text-blue-500">FARIAN TAZWAR</span>
+        </h1>
+        <h1 className="mb-4 text-3xl font-bold sm:text-2xl lg:text-3xl">
+         <span > Aspiring Developer </span>
         </h1>
 
         <p className="text-sm leading-relaxed text-gray-400 sm:text-base">
-          Learning Full-Stack Web Development | JavaScript Enthusiast |
-          Interested in Web and App Development
+          Learning Full-Stack Web Development | JavaScript Enthusiast
         </p>
 
         <div className="mt-6 grid grid-cols-2 gap-3 sm:gap-4">
