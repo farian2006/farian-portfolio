@@ -1,0 +1,42 @@
+   [
+    {
+      "id": 1,
+      "title": "JavaScript",
+      "lvl": "Intermediate"
+    },
+    {
+      "id": 2,
+      "title": "Next.js",
+      "lvl": "Intermediate"
+    },
+    {
+      "id": 3,
+      "title": "React",
+      "lvl": "Intermediate"
+    },
+    {
+      "id": 4,
+      "title": "HTML",
+      "lvl": "Intermediate"
+    },
+    {
+      "id": 5,
+      "title": "CSS",
+      "lvl": "Intermediate"
+    },
+    {
+      "id": 6,
+      "title": "Java",
+      "lvl": "Intermediate"
+    },
+    {
+      "id": 7,
+      "title": "Python",
+      "lvl": "Intermediate"
+    },
+    {
+      "id": 8,
+      "title": "Excel",
+      "lvl": "Pro"
+    }
+  ]

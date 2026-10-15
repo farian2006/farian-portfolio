@@ -24,7 +24,7 @@ const HomePage = () => {
           <span className="typing-name text-blue-500">FARIAN TAZWAR</span>
         </h1>
         <h1 className="mb-4 text-3xl font-bold sm:text-2xl lg:text-3xl">
-         <span > Aspiring Developer </span>
+          <span> Aspiring Developer </span>
         </h1>
 
         <p className="text-sm leading-relaxed text-gray-400 sm:text-base">
@@ -69,27 +69,3 @@ const HomePage = () => {
 
 export default HomePage;
 
-// //  <p className="text-black">
-//           I am currently pursuing a BSc in Computer Science and Engineering at
-//           BRAC University, with a growing interest in Full-Stack Web
-//           Development, JavaScript, and Web and App Development. As an aspiring
-//           developer, I am continuously learning new technologies, exploring
-//           modern web development tools, and working to strengthen my programming
-//           and problem-solving skills. I enjoy learning by building projects and
-//           look forward to turning my ideas into practical, user-friendly digital
-//           solutions. Originally from Patuakhali, I have also been actively
-//           involved in social and volunteer organizations throughout my academic
-//           journey. During my SSC and HSC years, I served as Joint Secretary of
-//           PGC Science Club and as a General Member of Patuakhali Youth Club, Red
-//           Crescent Society, and National Children’s Task Force. Currently, I
-//           serve as the General Secretary of Patuakhali Volunteers and as an
-//           Events Member of the BRAC University Esports Club. These roles have
-//           helped me develop leadership, teamwork, communication, and
-//           organizational skills while allowing me to contribute to my community
-//           and participate in meaningful initiatives. I believe in continuous
-//           learning, collaboration, and personal growth. My goal is to strengthen
-//           my technical expertise, gain practical experience in software
-//           development, and grow into a skilled developer while continuing to
-//           make a positive impact through social work and community involvement.
-//         </p>
-//         </div>

@@ -27,14 +27,14 @@ const NavLinks = () => {
           <ul className="menu bg-base-200 min-h-full w-80 p-4">
             {/* Sidebar content here */}
             <li>
-              <Link href="/">
+              <Link href="#home">
                 {" "}
                <IoHomeSharp />
                 Home
               </Link>
             </li>
             <li>
-              <Link href="">
+              <Link href="#skills">
                 {" "}
                 <FaTools />
                 Skills

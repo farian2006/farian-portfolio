@@ -1,11 +1,18 @@
-import HomePage from "./components/HomePage";
-import NavLinks from "./components/NavLinks";
+import HomePage from "@/components/HomePage";
+import NavLinks from "@/components/NavLinks";
+import Skills from "@/components/Skills/Skills";
+
 
 export default function Home() {
   return (
     <div>
       <NavLinks></NavLinks>
-      <HomePage></HomePage>
+       <section id="home">
+       <HomePage></HomePage>
+       </section>
+       <section id="skills">
+        <Skills></Skills>
+       </section>
     </div>
   );
 }
