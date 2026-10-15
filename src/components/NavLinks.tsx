@@ -49,7 +49,7 @@ const NavLinks = () => {
               </Link>
             </li>
             <li>
-              <Link href="">
+              <Link href="#education">
                 {" "}
                 <FaGraduationCap />
                 Education
