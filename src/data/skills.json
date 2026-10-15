@@ -2,41 +2,49 @@
     {
       "id": 1,
       "title": "JavaScript",
-      "lvl": "Intermediate"
+      "lvl": "Intermediate",
+      "icon":"javascript"
     },
     {
       "id": 2,
       "title": "Next.js",
-      "lvl": "Intermediate"
+      "lvl": "Intermediate",
+      "icon": "nextjs"
     },
     {
       "id": 3,
       "title": "React",
-      "lvl": "Intermediate"
+      "lvl": "Intermediate",
+       "icon": "react"
     },
     {
       "id": 4,
       "title": "HTML",
-      "lvl": "Intermediate"
+      "lvl": "Intermediate",
+       "icon": "html"
     },
     {
       "id": 5,
       "title": "CSS",
-      "lvl": "Intermediate"
+      "lvl": "Intermediate",
+       "icon": "css"
     },
     {
       "id": 6,
       "title": "Java",
-      "lvl": "Intermediate"
+      "lvl": "Intermediate",
+       "icon": "java"
     },
     {
       "id": 7,
       "title": "Python",
-      "lvl": "Intermediate"
+      "lvl": "Intermediate",
+       "icon": "python"
     },
     {
       "id": 8,
       "title": "Excel",
-      "lvl": "Pro"
+      "lvl": "Pro",
+       "icon": "excel"
     }
   ]

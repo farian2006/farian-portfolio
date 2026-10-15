@@ -16,15 +16,11 @@ const Skills = () => {
           <h2 className="mb-4 text-3xl font-bold md:text-4xl">
             Skills & Technologies
           </h2>
-
-          <p className="mx-auto max-w-2xl text-gray-600 dark:text-gray-400">
-            Technologies and tools I use to build modern web applications.
-          </p>
         </div>
 
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {typedSkills.map((skill: Skill) => (
-            <SkillCard key={skill.id} title={skill.title} level={skill.lvl} />
+            <SkillCard key={skill.id} title={skill.title} level={skill.lvl} icon={skill.icon}/>
           ))}
         </div>
       </div>
