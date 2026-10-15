@@ -6,6 +6,7 @@ import { FaGraduationCap } from "react-icons/fa";
 import { GrCertificate } from "react-icons/gr";
 import { FaFolderOpen } from "react-icons/fa6";
 import { FaHandsHelping } from "react-icons/fa";
+import { FaUserCircle } from "react-icons/fa";
 
 const NavLinks = () => {
   return (
@@ -29,8 +30,15 @@ const NavLinks = () => {
             <li>
               <Link href="#home">
                 {" "}
-               <IoHomeSharp />
+                <IoHomeSharp />
                 Home
+              </Link>
+            </li>
+            <li>
+              <Link href="#aboutMe">
+                {" "}
+                <FaUserCircle />
+                About Me
               </Link>
             </li>
             <li>
