@@ -7,6 +7,7 @@ import { GrCertificate } from "react-icons/gr";
 import { FaFolderOpen } from "react-icons/fa6";
 import { FaHandsHelping } from "react-icons/fa";
 import { FaUserCircle } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 
 const NavLinks = () => {
   return (
@@ -74,6 +75,13 @@ const NavLinks = () => {
                 {" "}
                 <FaHandsHelping />
                 Volunteery Experience
+              </Link>
+            </li>
+             <li>
+              <Link href="#getintouch">
+                {" "}
+                <FaEnvelope />
+               Get In Touch
               </Link>
             </li>
           </ul>
