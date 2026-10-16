@@ -42,7 +42,7 @@ const Education = () => {
                 </h3>
 
                 <p className="text-sm leading-6 text-base-content/70">
-                  BSc in Computer Science & Engineering
+                 BSc in Computer Science & Engineering
                 </p>
 
                 <div className="mt-auto border-t border-base-300 pt-4">

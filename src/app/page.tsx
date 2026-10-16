@@ -3,6 +3,7 @@ import HomePage from "@/components/HomePage";
 import NavLinks from "@/components/NavLinks";
 import Skills from "@/components/Skills/Skills";
 import Education from "@/components/Education/Education";
+import Certificates from "@/components/Certificates/Certificates";
 
 
 export default function Home() {
@@ -20,6 +21,9 @@ export default function Home() {
        </section>
        <section id="education">
         <Education></Education>
+       </section>
+       <section id="certificates">
+        <Certificates></Certificates>
        </section>
     </div>
   );

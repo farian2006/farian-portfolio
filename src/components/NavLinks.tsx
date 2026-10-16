@@ -56,7 +56,7 @@ const NavLinks = () => {
               </Link>
             </li>
             <li>
-              <Link href="">
+              <Link href="#certificates">
                 {" "}
                 <GrCertificate />
                 Certificates
