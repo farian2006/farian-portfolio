@@ -22,7 +22,7 @@ const Footer = () => {
               href="#home"
               className="inline-block text-2xl font-bold tracking-tight transition-colors hover:text-primary"
             >
-              Farian Tazwar<span className="text-primary">.</span>
+              Farian Tazwar<span className="text-primary"></span>
             </Link>
 
             <p className="max-w-xs text-sm leading-7 opacity-70">

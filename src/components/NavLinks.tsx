@@ -11,8 +11,8 @@ import { FaEnvelope } from "react-icons/fa";
 
 const NavLinks = () => {
   return (
-    <div className="mt-4 ml-4">
-      <div className="drawer">
+    <div className="fixed left-4 top-4 z-[9999]">
+      <div className="drawer z-[9999]">
         <input id="my-drawer-1" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content">
           {/* Page content here */}

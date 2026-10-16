@@ -22,7 +22,7 @@ const AboutMe = () => {
                 <p>
                   I am currently pursuing a BSc in Computer Science and
                   Engineering at BRAC University, with a growing interest in
-                  Full-Stack Web Development, JavaScript, and web and app
+                  Full-Stack Web Development, JavaScript, and app
                   development. As an aspiring developer, I am continuously
                   learning new technologies, exploring modern development tools,
                   and strengthening my programming and problem-solving skills. I
@@ -91,7 +91,7 @@ const AboutMe = () => {
                 </p>
 
                 <a
-                  href="#social-works"
+                  href="#voluenteer"
                   className="mt-2 inline-flex items-center gap-2 font-semibold text-primary transition-colors hover:opacity-75"
                 >
                   Explore My Activities <span aria-hidden="true">→</span>
