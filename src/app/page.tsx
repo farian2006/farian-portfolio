@@ -7,6 +7,7 @@ import Certificates from "@/components/Certificates/Certificates";
 import Projects from "@/components/Projects/Projects";
 import Voluenteer from "@/components/Voluenteer/Voluenteer";
 import GetInTouch from "@/components/GetInTouch/GetInTouch";
+import Footer from "@/components/Footer/Footer";
 
 
 export default function Home() {
@@ -37,6 +38,7 @@ export default function Home() {
        <section id="getintouch">
         <GetInTouch></GetInTouch>
        </section>
+       <Footer></Footer>
     </div>
   );
 }
