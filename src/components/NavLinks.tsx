@@ -63,7 +63,7 @@ const NavLinks = () => {
               </Link>
             </li>
             <li>
-              <Link href="">
+              <Link href="#projects">
                 {" "}
                 <FaFolderOpen />
                 Projects
