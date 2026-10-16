@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "organization": "Patuakhali Volunteers",
+    "position": "General Secretary",
+    "startDate": "Dec 2021",
+    "endDate": "Present",
+    "image": "/assests/works/patuakhali.jpg"
+  },
+  {
+    "id": 2,
+    "organization": "Patuakhali Govt. College Science Club",
+    "position": "Joint Secretary",
+    "startDate": "Jan 2022",
+    "endDate": "Sep 2024",
+    "image": "/assests/works/science.jpg"
+  },
+  {
+    "id": 3,
+    "organization": "BRAC University Esports Club (BUESC)",
+    "position": "Events Member",
+    "startDate": "Nov 2025",
+    "endDate": "Present",
+    "image": "/assests/works/buesc.jpg"
+  },
+  {
+    "id": 4,
+    "organization": "Red Crescent Society, Patuakhali",
+    "position": "Member",
+    "startDate": "Sep 2023",
+    "endDate": "Present",
+    "image": "/assests/works/red.png"
+  }
+]

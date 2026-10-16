@@ -5,6 +5,7 @@ import Skills from "@/components/Skills/Skills";
 import Education from "@/components/Education/Education";
 import Certificates from "@/components/Certificates/Certificates";
 import Projects from "@/components/Projects/Projects";
+import Voluenteer from "@/components/Voluenteer/Voluenteer";
 
 
 export default function Home() {
@@ -28,6 +29,9 @@ export default function Home() {
        </section>
        <section id="projects">
         <Projects></Projects>
+       </section>
+       <section id="voluenteer">
+        <Voluenteer></Voluenteer>
        </section>
     </div>
   );
