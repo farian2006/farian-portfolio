@@ -32,12 +32,16 @@ const HomePage = () => {
         </p>
 
         <div className="mt-6 grid grid-cols-2 gap-3 sm:gap-4">
-          <Link href="/getInTouch" className="btn btn-primary w-full gap-2">
+          <Link href="#getintouch" className="btn btn-primary w-full gap-2">
             <IoMdMail size={20} />
             Get In Touch
           </Link>
 
-          <a href="/cv.pdf" download className="btn w-full gap-2">
+          <a
+            href="/assests/cv/cv1.pdf"
+            download="Farian-Tazwar-CV.pdf"
+            className="btn w-full gap-2"
+          >
             <MdDownload size={20} />
             Download CV
           </a>
@@ -68,4 +72,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
-
