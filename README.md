@@ -26,7 +26,7 @@ I'm a Computer Science and Engineering student at **BRAC University**, currently
 
 ## 🌐 Connect With Me
 
-- **Portfolio:** [Visit My Website](YOUR_PORTFOLIO_URL)
+- **Portfolio:** [Visit My Website](https://farian-portfolio-theta.vercel.app/)
 - **GitHub:** [@farian2006](https://github.com/farian2006)
 - **LinkedIn:** [Farian Tazwar](https://www.linkedin.com/in/farian-tazwar/)
 - **Email:** [fariantazwar@gmail.com](fariantazwar@gmail.com)
