@@ -24,6 +24,12 @@ I'm a Computer Science and Engineering student at **BRAC University**, currently
 - Volunteer experience
 - Contact information and social links
 
+
+📸 Screenshots
+
+| ![Home page](./assests/home.png) | ![Projects page](./assests/projectsPage.png) | ![Skills page](./assests/skillsPage.png) |
+
+
 ## 🌐 Connect With Me
 
 - **Portfolio:** [Visit My Website](https://farian-portfolio-theta.vercel.app/)
