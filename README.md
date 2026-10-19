@@ -28,7 +28,7 @@ I'm a Computer Science and Engineering student at **BRAC University**, currently
 
 | Home | Projects | Skills |
 |------|----------|--------|
-| ![Home page](public/assets/ss/home.png) | ![Projects page](public/assets/ss/projectsPage.png) | ![Skills page](public/assets/ss/skillsPage.png) |
+| ![Home page](public/assets/ss/home.png) | ![Projects page](public/assets/ss/projectsPage.png) | ![Skills page](public/assets/ss/skillsPage2.png) |
 
 ## 🌐 Connect With Me
 
