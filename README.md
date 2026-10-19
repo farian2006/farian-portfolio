@@ -24,6 +24,11 @@ I'm a Computer Science and Engineering student at **BRAC University**, currently
 - Volunteer experience
 - Contact information and social links
 
+
+📸 Screenshots
+| ![Home page](./assests/ss/home.png) | ![Projects page](./assests/ss/projectsPage.png) | ![Skills page](./assests/ss/skillsPage.png) |
+
+
 ## 🌐 Connect With Me
 
 - **Portfolio:** [Visit My Website](YOUR_PORTFOLIO_URL)
