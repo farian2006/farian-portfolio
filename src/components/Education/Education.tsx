@@ -23,7 +23,7 @@ const Education = () => {
             <div className="card h-full overflow-hidden border border-base-300 bg-base-200 shadow-md transition-all duration-300 hover:-translate-y-2 hover:border-primary hover:shadow-xl">
               <figure className="relative h-52 overflow-hidden sm:h-56">
                 <Image
-                  src="/assests/education/bracu.jpg"
+                  src="/assets/education/bracu.jpg"
                   alt="BRAC University"
                   fill
                   sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 33vw"
@@ -64,7 +64,7 @@ const Education = () => {
             <div className="card h-full overflow-hidden border border-base-300 bg-base-200 shadow-md transition-all duration-300 hover:-translate-y-2 hover:border-primary hover:shadow-xl">
               <figure className="relative h-52 overflow-hidden sm:h-56">
                 <Image
-                  src="/assests/education/pgc.jpg"
+                  src="/assets/education/pgc.jpg"
                   alt="Patuakhali Government College"
                   fill
                   sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 33vw"
@@ -104,7 +104,7 @@ const Education = () => {
             <div className="card h-full overflow-hidden border border-base-300 bg-base-200 shadow-md transition-all duration-300 hover:-translate-y-2 hover:border-primary hover:shadow-xl">
               <figure className="relative h-52 overflow-hidden sm:h-56">
                 <Image
-                  src="/assests/education/jubilee.jpg"
+                  src="/assets/education/jubilee.jpg"
                   alt="Patuakhali Government Jubilee High School"
                   fill
                   sizes="(max-width: 639px) 100vw, (max-width: 1023px) 50vw, 33vw"

@@ -47,7 +47,7 @@ const Projects = () => {
         </p>
 
         <p className="mx-auto mt-3 max-w-lg text-sm leading-6 text-base-content/70">
-          I'm continuously exploring new technologies and building projects to
+          I&apos;m continuously exploring new technologies and building projects to
           turn ideas into practical solutions.
         </p>
 

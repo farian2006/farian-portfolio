@@ -80,7 +80,7 @@ const Footer = () => {
                 <FaGraduationCap size={16} />
                 Education
               </Link>
-              <Link href="#voluenteer" className="footer-link">
+              <Link href="#volunteer" className="footer-link">
                 <FaHandsHelping size={16} />
                 Volunteer Experience
               </Link>
@@ -89,7 +89,7 @@ const Footer = () => {
 
           <div>
             <h3 className="mb-5 text-sm font-bold uppercase tracking-widest">
-              Let's Connect
+              Let&apos;s Connect
             </h3>
             <p className="mb-4 text-sm leading-7 opacity-70">
               Interested in collaborating or discussing a project? Feel free to

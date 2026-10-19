@@ -2,23 +2,41 @@
 
 @plugin "daisyui";
 
+section[id] {
+  scroll-margin-top: 2rem;
+}
+
 .typing-name {
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
   vertical-align: bottom;
   width: 0;
-  animation: typing 2s steps(13, end) infinite alternate;
+  border-right: 3px solid currentColor;
+  animation: 
+    typing 3s steps(13, end) infinite alternate,
+    blink-caret 0.75s step-end infinite;
 }
 
 @keyframes typing {
-  0% {
+  0%, 10% {
     width: 0;
   }
-  70%, 100% {
-    width: 15ch;
+  75%, 100% {
+    width: 13.2ch;
   }
 }
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: currentColor;
+  }
+}
+
 @layer components {
   .footer-link {
     @apply flex w-fit items-center gap-3 text-sm opacity-70 transition-all duration-300 hover:translate-x-1 hover:text-primary hover:opacity-100;

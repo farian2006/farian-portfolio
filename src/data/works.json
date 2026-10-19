@@ -5,7 +5,7 @@
     "position": "General Secretary",
     "startDate": "Dec 2021",
     "endDate": "Present",
-    "image": "/assests/works/patuakhali.jpg"
+    "image": "/assets/works/patuakhali.jpg"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "position": "Joint Secretary",
     "startDate": "Jan 2022",
     "endDate": "Sep 2024",
-    "image": "/assests/works/science.jpg"
+    "image": "/assets/works/science.jpg"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "position": "Events Member",
     "startDate": "Nov 2025",
     "endDate": "Present",
-    "image": "/assests/works/buesc.jpg"
+    "image": "/assets/works/buesc.jpg"
   },
   {
     "id": 4,
@@ -29,6 +29,6 @@
     "position": "Member",
     "startDate": "Sep 2023",
     "endDate": "Present",
-    "image": "/assests/works/red.png"
+    "image": "/assets/works/red.png"
   }
 ]

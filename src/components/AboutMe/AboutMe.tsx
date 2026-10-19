@@ -91,7 +91,7 @@ const AboutMe = () => {
                 </p>
 
                 <a
-                  href="#voluenteer"
+                  href="#volunteer"
                   className="mt-2 inline-flex items-center gap-2 font-semibold text-primary transition-colors hover:opacity-75"
                 >
                   Explore My Activities <span aria-hidden="true">→</span>

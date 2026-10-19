@@ -2,25 +2,28 @@
   {
     "id": 1,
     "title": "DevStack",
-    "image": "/assests/projects/DevStack.png",
+    "image": "/assets/projects/DevStack.png",
     "description": "A web application that helps developers build their ideal technology stack.",
     "technologies": ["React", "TypeScript", "Tailwind CSS"],
-    "liveLink": "https://devstack-project-farian.netlify.app/"
+    "liveLink": "https://devstack-project-farian.netlify.app/",
+    "githubLink": "https://github.com/farian2006/Assignment-DevStack"
   },
   {
     "id": 2,
     "title": "FitLog",
-    "image": "/assests/projects/fitLogAPP.png",
+    "image": "/assets/projects/fitLogAPP.png",
     "description": "A gym companion application for organizing workout plans and tracking saved routines.",
-    "technologies": ["Next.js","React.js", "TypeScript", "Tailwind CSS"],
-    "liveLink": "https://fit-log-app-delta.vercel.app/"
+    "technologies": ["Next.js", "React.js", "TypeScript", "Tailwind CSS"],
+    "liveLink": "https://fit-log-app-delta.vercel.app/",
+    "githubLink": "https://github.com/farian2006/fit-log-app"
   },
   {
     "id": 3,
     "title": "Bazar Dor",
-    "image": "/assests/projects/bazarDorAPP.png",
+    "image": "/assets/projects/bazarDorAPP.png",
     "description": "A Bangladeshi market-price application for exploring products and comparing prices.",
-    "technologies": ["Next.js", "React.js","TypeScript", "Tailwind CSS"],
-    "liveLink": "https://bazar-dor-app-beta.vercel.app/"
+    "technologies": ["Next.js", "React.js", "TypeScript", "Tailwind CSS"],
+    "liveLink": "https://bazar-dor-app-beta.vercel.app/",
+    "githubLink": "https://github.com/farian2006/bazar-dor-app"
   }
 ]

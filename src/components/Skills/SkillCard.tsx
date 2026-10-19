@@ -30,14 +30,14 @@ const SkillCard = ({ title, level, icon }: SkillCardProps) => {
     <div className="group relative mx-auto w-full max-w-sm">
       <div className="card h-full border border-base-300 bg-base-200 shadow-md transition-all duration-300 hover:-translate-y-2 hover:border-primary hover:shadow-xl">
         <div className="card-body items-center gap-4 p-5 sm:p-6">
-          <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-base-100 text shadow-sm transition-transform duration-300 group-hover:scale-110">
+          <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-base-100 text-primary shadow-sm transition-transform duration-300 group-hover:scale-110">
             {Icon && <Icon size={34} />}
           </div>
 
           <div className="text-center">
-            <h2 className="card-title justify-center text-lg font-bold sm:text-xl">
+            <h3 className="card-title justify-center text-lg font-bold sm:text-xl">
               {title}
-            </h2>
+            </h3>
 
             <span className="mt-2 inline-flex rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary">
               {level}

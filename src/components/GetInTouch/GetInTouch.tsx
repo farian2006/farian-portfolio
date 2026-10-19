@@ -9,7 +9,7 @@ import {
 
 const Contact = () => {
   return (
-    <section id="contact" className="px-4 py-16 sm:px-6 md:py-24 lg:px-8">
+    <section id="getintouch" className="px-4 py-16 sm:px-6 md:py-24 lg:px-8">
       <div className="mx-auto max-w-5xl">
         <div className="mb-12 text-center">
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-primary">

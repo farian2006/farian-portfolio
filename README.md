@@ -24,22 +24,18 @@ I'm a Computer Science and Engineering student at **BRAC University**, currently
 - Volunteer experience
 - Contact information and social links
 
-
-
-📸 Screenshots
+## 📸 Screenshots
 
 | Home | Projects | Skills |
 |------|----------|--------|
-| ![Home page](public/assests/ss/home.png) | ![Projects page](public/assests/ss/projectsPage.png) | ![Skills page](public/assests/ss/skillsPage.png) |
-
-
+| ![Home page](public/assets/ss/home.png) | ![Projects page](public/assets/ss/projectsPage.png) | ![Skills page](public/assets/ss/skillsPage.png) |
 
 ## 🌐 Connect With Me
 
 - **Portfolio:** [Visit My Website](https://farian-portfolio-theta.vercel.app/)
 - **GitHub:** [@farian2006](https://github.com/farian2006)
 - **LinkedIn:** [Farian Tazwar](https://www.linkedin.com/in/farian-tazwar/)
-- **Email:** [fariantazwar@gmail.com](fariantazwar@gmail.com)
+- **Email:** [fariantazwar@gmail.com](mailto:fariantazwar@gmail.com)
 
 ---
 

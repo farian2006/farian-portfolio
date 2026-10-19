@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Webinar on AI & Machine Learning",
+    "issuer": "BFEW Technical Training Center & Aptech",
+    "issueDate": "August 24, 2025",
+    "image": "/assets/certificates/ai.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Webinar on Full Stack MERN Web Development",
+    "issuer": "BFEW Technical Training Center & Aptech",
+    "issueDate": "August 24, 2025",
+    "image": "/assets/certificates/mern.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Graphics Design — Beginner Level (Extra Curricular Activity)",
+    "issuer": "BRAC University",
+    "issueDate": "May 10, 2026",
+    "image": "/assets/certificates/graphics.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Google Analytics Certification",
+    "issuer": "Google",
+    "issueDate": "March 5, 2026",
+    "expiryDate": "March 5, 2027",
+    "image": "/assets/certificates/google.png"
+  },
+  {
+    "id": 5,
+    "title": "AI Workflow & Agents",
+    "issuer": "Grameenphone Academy",
+    "issueDate": "October 15, 2026",
+    "image": "/assets/certificates/gp.png"
+  }
+]

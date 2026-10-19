@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FaExternalLinkAlt } from "react-icons/fa";
-import { Project } from "@/types/projectType";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import type { Project } from "@/types/projectType";
 
 type ProjectCardProps = {
   project: Project;
@@ -39,7 +39,11 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
             ))}
           </div>
 
-          <div className="card-actions mt-auto border-t border-base-300 pt-4">
+          <div
+            className={`card-actions mt-auto border-t border-base-300 pt-4 ${
+              project.githubLink ? "grid grid-cols-2 gap-2" : ""
+            }`}
+          >
             <Link
               href={project.liveLink}
               target="_blank"
@@ -49,6 +53,19 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
               Live Demo
               <FaExternalLinkAlt size={12} />
             </Link>
+
+            {project.githubLink && (
+              <Link
+                href={project.githubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`View ${project.title} source code on GitHub`}
+                className="btn btn-outline btn-sm w-full gap-2 sm:btn-md"
+              >
+                <FaGithub size={16} />
+                Code
+              </Link>
+            )}
           </div>
         </div>
       </div>

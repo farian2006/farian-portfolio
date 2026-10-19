@@ -5,4 +5,5 @@ export type Project = {
   description: string;
   technologies: string[];
   liveLink: string;
+  githubLink?: string;
 };

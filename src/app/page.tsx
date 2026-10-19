@@ -9,36 +9,19 @@ import Voluenteer from "@/components/Voluenteer/Voluenteer";
 import GetInTouch from "@/components/GetInTouch/GetInTouch";
 import Footer from "@/components/Footer/Footer";
 
-
 export default function Home() {
   return (
-    <div>
-      <NavLinks></NavLinks>
-       <section id="home">
-       <HomePage></HomePage>
-       </section>
-        <section id="abourMe">
-        <AboutMe></AboutMe>
-       </section>
-       <section id="skills">
-        <Skills></Skills>
-       </section>
-       <section id="education">
-        <Education></Education>
-       </section>
-       <section id="certificates">
-        <Certificates></Certificates>
-       </section>
-       <section id="projects">
-        <Projects></Projects>
-       </section>
-       <section id="voluenteer">
-        <Voluenteer></Voluenteer>
-       </section>
-       <section id="getintouch">
-        <GetInTouch></GetInTouch>
-       </section>
-       <Footer></Footer>
-    </div>
+    <main className="min-h-screen">
+      <NavLinks />
+      <HomePage />
+      <AboutMe />
+      <Skills />
+      <Education />
+      <Certificates />
+      <Projects />
+      <Voluenteer />
+      <GetInTouch />
+      <Footer />
+    </main>
   );
 }
