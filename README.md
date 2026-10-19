@@ -36,3 +36,6 @@ I'm a Computer Science and Engineering student at **BRAC University**, currently
 > Learn. Build. Improve. Repeat.
 
 ⭐ Thanks for visiting my repository!
+
+## License
+This project is All Rights Reserved. See the LICENSE file for details.
