@@ -1,50 +1,93 @@
-   [
-    {
-      "id": 1,
-      "title": "JavaScript",
-      "lvl": "Intermediate",
-      "icon":"javascript"
-    },
-    {
-      "id": 2,
-      "title": "Next.js",
-      "lvl": "Intermediate",
-      "icon": "nextjs"
-    },
-    {
-      "id": 3,
-      "title": "React",
-      "lvl": "Intermediate",
-       "icon": "react"
-    },
-    {
-      "id": 4,
-      "title": "HTML",
-      "lvl": "Intermediate",
-       "icon": "html"
-    },
-    {
-      "id": 5,
-      "title": "CSS",
-      "lvl": "Intermediate",
-       "icon": "css"
-    },
-    {
-      "id": 6,
-      "title": "Java",
-      "lvl": "Intermediate",
-       "icon": "java"
-    },
-    {
-      "id": 7,
-      "title": "Python",
-      "lvl": "Intermediate",
-       "icon": "python"
-    },
-    {
-      "id": 8,
-      "title": "Excel",
-      "lvl": "Pro",
-       "icon": "excel"
-    }
-  ]
+[
+  {
+    "id": 1,
+    "title": "HTML",
+    "lvl": "Intermediate",
+    "icon": "html",
+    "category": "Frontend Development"
+  },
+  {
+    "id": 2,
+    "title": "CSS",
+    "lvl": "Intermediate",
+    "icon": "css",
+    "category": "Frontend Development"
+  },
+  {
+    "id": 3,
+    "title": "JavaScript",
+    "lvl": "Intermediate",
+    "icon": "javascript",
+    "category": "Frontend Development"
+  },
+  {
+    "id": 4,
+    "title": "React",
+    "lvl": "Intermediate",
+    "icon": "react",
+    "category": "Frontend Development"
+  },
+  {
+    "id": 5,
+    "title": "Next.js",
+    "lvl": "Intermediate",
+    "icon": "nextjs",
+    "category": "Frontend Development"
+  },
+  {
+    "id": 6,
+    "title": "Java",
+    "lvl": "Intermediate",
+    "icon": "java",
+    "category": "Programming Languages"
+  },
+  {
+    "id": 7,
+    "title": "Python",
+    "lvl": "Intermediate",
+    "icon": "python",
+    "category": "Programming Languages"
+  },
+  {
+    "id": 8,
+    "title": "Git",
+    "lvl": "Intermediate",
+    "icon": "git",
+    "category": "Tools & Deployment"
+  },
+  {
+    "id": 9,
+    "title": "Vercel",
+    "lvl": "Intermediate",
+    "icon": "vercel",
+    "category": "Tools & Deployment"
+  },
+  {
+    "id": 10,
+    "title": "Netlify",
+    "lvl": "Intermediate",
+    "icon": "netlify",
+    "category": "Tools & Deployment"
+  },
+  {
+    "id": 11,
+    "title": "Figma",
+    "lvl": "Intermediate",
+    "icon": "figma",
+    "category": "Design & Productivity"
+  },
+  {
+    "id": 12,
+    "title": "Canva",
+    "lvl": "Intermediate",
+    "icon": "canva",
+    "category": "Design & Productivity"
+  },
+  {
+    "id": 13,
+    "title": "Excel",
+    "lvl": "Pro",
+    "icon": "excel",
+    "category": "Design & Productivity"
+  }
+]

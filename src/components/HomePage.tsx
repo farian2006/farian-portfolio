@@ -3,6 +3,7 @@ import { IoMdMail } from "react-icons/io";
 import { MdDownload } from "react-icons/md";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
+import TypewriterName from "./TypewriterName";
 
 const HomePage = () => {
   return (
@@ -24,7 +25,9 @@ const HomePage = () => {
       <div className="flex w-full max-w-xl flex-col text-center md:w-1/2 md:text-left">
         <h1 className="mb-3 text-3xl font-extrabold sm:text-4xl lg:text-5xl">
           Hi, I Am{" "}
-          <span className="typing-name text-primary">FARIAN TAZWAR</span>
+          <span className="block sm:inline text-primary">
+            <TypewriterName name="FARIAN TAZWAR" />
+          </span>
         </h1>
         <p className="mb-4 text-2xl font-bold text-base-content/90 sm:text-2xl lg:text-3xl">
           Aspiring Full-Stack Developer

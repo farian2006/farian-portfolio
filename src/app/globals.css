@@ -28,13 +28,18 @@ section[id] {
 }
 
 @keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
+  0%, 100% {
+    opacity: 1;
     border-color: currentColor;
   }
+  50% {
+    opacity: 0;
+    border-color: transparent;
+  }
+}
+
+.animate-blink {
+  animation: blink-caret 0.8s step-end infinite;
 }
 
 @layer components {
