@@ -28,7 +28,7 @@ I'm a Computer Science and Engineering student at **BRAC University**, currently
 
 | Home | Projects | Skills |
 |------|----------|--------|
-| <img src="./assests/home.png" width="300"> | <img src="./assests/projectsPage.png" width="300"> | <img src="./assests/skillsPage.png" width="300"> |
+| <img src="/assests/home.png" width="300"> | <img src="/assests/projectsPage.png" width="300"> | <img src="/assests/skillsPage.png" width="300"> |
 
 
 ## 🌐 Connect With Me
