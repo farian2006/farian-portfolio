@@ -44,7 +44,7 @@ const HomePage = () => {
           </Link>
 
           <a
-            href="/assets/cv/cv1.pdf"
+            href="/assets/cv/Farian_Tazwar_CV.pdf"
             download="Farian-Tazwar-CV.pdf"
             aria-label="Download Farian Tazwar's CV"
             className="btn w-full gap-2 border-base-300"
