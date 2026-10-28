@@ -27,6 +27,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Farian Tazwar", url: "https://github.com/farian2006" }],
   creator: "Farian Tazwar",
+  verification: {
+    google: "sDA0lQtK9mr_AOuiLE5h5ME9WKpZ0-WR2jTZ4USvtN0",
+  },
   openGraph: {
     title: "Farian Tazwar | Aspiring Full-Stack Developer",
     description:
