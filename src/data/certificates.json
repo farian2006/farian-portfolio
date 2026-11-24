@@ -34,5 +34,12 @@
     "issuer": "Grameenphone Academy",
     "issueDate": "October 15, 2026",
     "image": "/assets/certificates/gp.png"
+  },
+  {
+    "id": 6,
+    "title": "Agentic AI in Cybersecurity and Healthcare",
+    "issuer": "Eduko Pathways Bangladesh & University of Notre Dame Australia",
+    "issueDate": "November 10, 2026",
+    "image": "/assets/certificates/cybersecurity.png"
   }
 ]
