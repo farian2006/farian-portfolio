@@ -16,7 +16,7 @@
   {
     "id": 3,
     "title": "TypeScript",
-    "lvl": "Beginner",
+    "lvl": "Intermediate",
     "icon": "typescript",
     "category": "Programming Languages"
   },
@@ -86,7 +86,7 @@
   {
     "id": 13,
     "title": "Netlify",
-    "lvl": "Beginner",
+    "lvl": "Intermediate",
     "icon": "netlify",
     "category": "Tools & Deployment"
   },
