@@ -4,14 +4,16 @@ import {
   SiNextdotjs,
   SiHtml5,
   SiCss,
-  SiPython,
   SiGit,
   SiFigma,
   SiVercel,
   SiNetlify,
+  SiGithub,
+  SiTypescript,
+  SiMongodb,
+  SiNodedotjs,
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
-import { FaFileExcel } from "react-icons/fa6";
 
 const CanvaIcon = ({ size = 34 }: { size?: number }) => (
   <svg
@@ -46,14 +48,16 @@ type SkillCardProps = {
 
 const icons: Record<string, React.ElementType> = {
   javascript: SiJavascript,
+  typescript:SiTypescript,
   nextjs: SiNextdotjs,
   react: SiReact,
   html: SiHtml5,
   css: SiCss,
   java: FaJava,
-  python: SiPython,
-  excel: FaFileExcel,
+  mongodb:SiMongodb,
+  nodejs:SiNodedotjs,
   git: SiGit,
+  github:SiGithub,
   figma: SiFigma,
   vercel: SiVercel,
   netlify: SiNetlify,

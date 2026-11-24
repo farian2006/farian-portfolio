@@ -53,9 +53,6 @@ const NavLinks = () => {
             className="drawer-overlay"
           />
           <ul className="menu bg-base-200/95 backdrop-blur-md min-h-full w-80 p-5 text-base shadow-2xl gap-1">
-            <li className="menu-title px-4 py-2 font-bold text-base text-primary">
-              Navigation
-            </li>
             {navItems.map((item) => {
               const Icon = item.icon;
               return (

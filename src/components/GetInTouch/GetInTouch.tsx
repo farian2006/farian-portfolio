@@ -80,15 +80,6 @@ const Contact = () => {
               >
                 <FaLinkedin size={22} />
               </a>
-              <a
-                href="https://stackoverflow.com/users/33148244/farian-tazwar"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Visit my Stack OverFlow profile"
-                className="flex h-12 w-12 items-center justify-center rounded-xl border border-base-300 bg-base-100 text-base-content transition-all duration-300 hover:-translate-y-1 hover:border-primary hover:bg-primary hover:text-primary-content sm:h-14 sm:w-14"
-              >
-                <FaStackOverflow size={22} />
-              </a>
             </div>
             <div className="mt-8 inline-flex items-center gap-2 text-sm text-base-content/60">
               <FaMapMarkerAlt className="text-primary" />

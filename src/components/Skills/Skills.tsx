@@ -10,21 +10,29 @@ import {
   FaCloudUploadAlt,
   FaPalette,
   FaLayerGroup,
+  FaServer,
 } from "react-icons/fa";
 
 const typedSkills: Skill[] = skills;
 
 const categoryMeta = [
   {
+    name: "Programming Languages",
+    icon: FaTerminal,
+    description: "Core algorithmic thinking and general-purpose programming",
+  },
+  {
     name: "Frontend Development",
     icon: FaLaptopCode,
     description: "Modern web standards, responsive UI, and component libraries",
   },
   {
-    name: "Programming Languages",
-    icon: FaTerminal,
-    description: "Core algorithmic thinking and general-purpose programming",
+    name: "Backend & Database",
+    icon: FaServer,
+    description:
+      "Server-side development, REST APIs, database management, and data handling",
   },
+
   {
     name: "Tools & Deployment",
     icon: FaCloudUploadAlt,
@@ -40,10 +48,7 @@ const categoryMeta = [
 const Skills = () => {
   const [activeCategory, setActiveCategory] = useState<string>("All");
 
-  const categories = [
-    "All",
-    ...categoryMeta.map((cat) => cat.name),
-  ];
+  const categories = ["All", ...categoryMeta.map((cat) => cat.name)];
 
   const filteredCategories =
     activeCategory === "All"
@@ -53,7 +58,6 @@ const Skills = () => {
   return (
     <section id="skills" className="px-4 py-16 sm:px-6 md:py-24 lg:px-8">
       <div className="mx-auto max-w-7xl">
-        {/* Section Heading */}
         <div className="mb-10 text-center sm:mb-12">
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-primary">
             My Expertise
@@ -71,7 +75,6 @@ const Skills = () => {
           </p>
         </div>
 
-        {/* Category Filter Pills */}
         <div className="mb-12 flex flex-wrap items-center justify-center gap-2 sm:gap-3">
           {categories.map((category) => {
             const isActive = activeCategory === category;
@@ -107,11 +110,10 @@ const Skills = () => {
           })}
         </div>
 
-        {/* Categorized Skills Subsections */}
         <div className="space-y-14">
           {filteredCategories.map((cat) => {
             const categorySkills = typedSkills.filter(
-              (skill) => skill.category === cat.name
+              (skill) => skill.category === cat.name,
             );
             const Icon = cat.icon;
 
@@ -120,7 +122,6 @@ const Skills = () => {
                 key={cat.name}
                 className="rounded-3xl border border-base-300/70 bg-base-200/30 p-6 sm:p-8 lg:p-10 shadow-sm"
               >
-                {/* Category Header */}
                 <div className="mb-8 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between border-b border-base-300/60 pb-5">
                   <div className="flex items-center gap-3">
                     <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary shadow-sm">
@@ -130,18 +131,18 @@ const Skills = () => {
                       <h3 className="text-xl font-bold sm:text-2xl text-base-content">
                         {cat.name}
                       </h3>
-                      <p className="text-xs text-base-content/60 sm:text-sm">
+                      <p className="text-xs text-base-content/60  sm:text-sm">
                         {cat.description}
                       </p>
                     </div>
                   </div>
 
                   <span className="inline-flex w-fit items-center rounded-full border border-primary/30 bg-primary/10 px-3.5 py-1 text-xs font-semibold text-primary">
-                    {categorySkills.length} {categorySkills.length === 1 ? "Skill" : "Skills"}
+                    {categorySkills.length}{" "}
+                    {categorySkills.length === 1 ? "Skill" : "Skills"}
                   </span>
                 </div>
 
-                {/* Grid of Skill Cards */}
                 <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
                   {categorySkills.map((skill: Skill) => (
                     <SkillCard

@@ -5,6 +5,9 @@
 section[id] {
   scroll-margin-top: 2rem;
 }
+@theme inline {
+  --font-sans: var(--font-space-grotesk);
+}
 
 .typing-name {
   display: inline-block;
